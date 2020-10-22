@@ -718,6 +718,7 @@ parse_receivers (argc, argv, ctx, sctx)
 	{
 	  return -1;
 	}
+      sctx->receivers[i].freqcount = i;
     }
   if (ctx->sources == NULL)
     {
